@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Content</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload=init()>
+    <div class="loginsection">
+Username: <input class="input username" type="text" placeholder="Enter your username"/>
+Password: <input class="input password" type="password" placeholder="Enter your password"/>
+<button onclick="onLoginBtn()" class="loginBtn">Login</button></div>
+
+<div class="safearea">
+    <p class="safecontent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusamus explicabo culpa rem cumque officiis, animi sapiente totam atque possimus sed, consequuntur a repellat? Corrupti et ratione omnis commodi similique?
+    </p>
+    <button onclick=onLogoutBtn()>Logout</button>
+</div>
+<div class="logininfo"></div>
+
+<div class="adminarea">
+    <h3>Admin Area</h3>
+<a href="admin.html">Click here to go to the Admin area.</a>
+</div>
+
+    <script src="js/controller.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/storage-service.js"></script>
+</body>
+</html>

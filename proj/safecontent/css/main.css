@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.loginsection {
+    position: absolute;
+    left: 450px;
+    top: 55px;
+    height: 75px;
+    width: 650px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+.input {
+    text-align: center;
+}
+
+.safearea {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    height: 100px;
+    width: 650px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 1px;
+    display: none;
+}
+
+.logininfo {
+    height: 100px;
+    width: 250px;
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 1px;
+    display: none;
+}
+
+.adminarea {
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    right: 10px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 1px;
+    display: none;
+}
